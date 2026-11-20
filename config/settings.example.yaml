@@ -1,0 +1,29 @@
+app:
+  name: SQL Code Pilot
+  debug: true
+
+backend:
+  host: 0.0.0.0
+  port: 8000
+  cors_origins:
+    - http://localhost:3000
+
+postgres:
+  host: localhost
+  port: 5432
+  database: app_dev
+  user: postgres
+  password: changeme
+  sslmode: prefer
+  read_only_role: sqlcopilot_ro
+
+ollama:
+  base_url: http://localhost:11434
+  model: qwen2.5-coder:1.5b
+  timeout_seconds: 30
+
+security:
+  allow_select_only: true
+  max_rows: 1000
+  statement_timeout_ms: 5000
+  lock_timeout_ms: 2000

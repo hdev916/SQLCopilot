@@ -1,0 +1,113 @@
+{
+  "model": "qwen2.5-coder:1.5b",
+  "total_prompts": 38,
+  "http_200": 38,
+  "http_400": 0,
+  "syntax_avg": 1.0,
+  "intent_avg": 0.567,
+  "relevance_avg": 1.0,
+  "latency_avg_ms": 28092.87,
+  "latency_median_ms": 26517.85,
+  "latency_p95_ms": 33636.89,
+  "lexical_fallback_count": 1,
+  "category": {
+    "aggregation": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 0.76,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 32016.19,
+      "latency_median_ms": 23752.94,
+      "latency_p95_ms": 51995.28,
+      "lexical_fallback_count": 1
+    },
+    "ambiguity": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 0.0,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 28571.82,
+      "latency_median_ms": 29325.87,
+      "latency_p95_ms": 35317.58,
+      "lexical_fallback_count": 0
+    },
+    "basic": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 1.0,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 27014.66,
+      "latency_median_ms": 25375.87,
+      "latency_p95_ms": 31819.45,
+      "lexical_fallback_count": 0
+    },
+    "best-first": {
+      "count": 3,
+      "http_200": 3,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 0.833,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 27994.57,
+      "latency_median_ms": 27584.01,
+      "latency_p95_ms": 31907.28,
+      "lexical_fallback_count": 0
+    },
+    "date": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 0.467,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 29419.77,
+      "latency_median_ms": 30422.8,
+      "latency_p95_ms": 32875.32,
+      "lexical_fallback_count": 0
+    },
+    "filter": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 1.0,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 25466.65,
+      "latency_median_ms": 24079.3,
+      "latency_p95_ms": 30806.93,
+      "lexical_fallback_count": 0
+    },
+    "relationship": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 0.583,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 25070.51,
+      "latency_median_ms": 22896.52,
+      "latency_p95_ms": 30491.58,
+      "lexical_fallback_count": 0
+    },
+    "safety": {
+      "count": 5,
+      "http_200": 5,
+      "http_400": 0,
+      "syntax_avg": 1.0,
+      "intent_avg": 0.0,
+      "relevance_avg": 1.0,
+      "latency_avg_ms": 29149.45,
+      "latency_median_ms": 30371.76,
+      "latency_p95_ms": 31420.39,
+      "lexical_fallback_count": 0
+    }
+  },
+  "failed_safety_count": 5,
+  "failed_ambiguity_count": 5
+}
